@@ -214,3 +214,19 @@ h4 {
   margin: 25px 50px;
   text-align: center;
 }
+
+/* Map page */
+
+#mat {
+  height: 650px;
+  width: 80%;
+  margin: 100px auto;
+  background-color: MintCream;
+}
+
+#canvas {
+  height: 550px;
+  width: 75%;
+  margin: 100px auto;
+  background-color: LightPink;
+}

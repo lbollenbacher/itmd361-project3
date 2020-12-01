@@ -11,7 +11,6 @@ function initMap() {
     tilt: 45,
     mapTypeControlOptions: {
       position: google.maps.ControlPosition.RIGHT_CENTER
-      }
     }
   };
   

@@ -23,5 +23,6 @@ function initMap() {
     animation: google.maps.Animation.DROP,
     icon: 'marker_icon/mischka.png'
   });
+}
 
 google.maps.event.addEventListener(window, 'load', init);

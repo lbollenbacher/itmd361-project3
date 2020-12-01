@@ -5,6 +5,7 @@ function initMap() {
   var mischyLocation = new google.maps.LatLng(41.88480472032102, -87.62735095043277);
   var mapOptions = {
     center: mischyLocation,
+    zoom: 15,
     mapTypeId: google.maps.MapTypeId.HYBRID,
     mapTypeControlOptions: {
       position: google.maps.ControlPosition.RIGHT_CENTER
@@ -13,9 +14,9 @@ function initMap() {
   
 // Marker
  
- var mischyMap = new google.maps.Map(map, mischyLocation, mapOptions);
+ var mischyMap = new google.maps.Map(map, mapOptions);
  
- var marker = new google.maps.Marker ({
+ var marker = new google.maps.Marker({
    position: mischyLocation,
    map: mischyMap,
    animation: google.maps.Animation.DROP,

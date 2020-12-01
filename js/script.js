@@ -10,7 +10,17 @@ function initMap() {
       position: google.maps.ControlPosition.RIGHT_CENTER
     }
   };
-
+  
+// Marker
+ 
+ var mischyMap = new google.maps.Map(map, mischyLocation, mapOptions);
+ 
+ var marker = new google.maps.Marker ({
+   position: mischyLocation,
+   map: mischyMap,
+   animation: google.maps.Animation.DROP,
+   icon: 'marker_icon/mischka.png'
+ });
   
 }
 

@@ -7,8 +7,7 @@ function initMap() {
   var mapOptions = { 
     center: mischyLocation,
     zoom: 15,
-    mapTypeId: "hybrid",
-    tilt: 45,
+    mapTypeId: 'hybrid',
     mapTypeControlOptions: {
       position: google.maps.ControlPosition.RIGHT_CENTER
     }

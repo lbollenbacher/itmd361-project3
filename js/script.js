@@ -28,10 +28,7 @@ function initMap() {
     position: mischyLocation,
     map: mapCanvas,
     animation: google.maps.Animation.DROP,
-    icon: ''
+    icon: 'marker_icon/mischka.png'
   });
 
 google.maps.event.addEventListener(window, 'load', init);
-  
-  
-<script src="https://maps.googleapis.com/maps/api/js?key=  AIzaSyB4XAi_W8ZdN0xQt6aYzyF1oxwgSVDZB-s&callback=initMap" defer></script>

@@ -14,7 +14,7 @@ function initMap() {
   
   // Marker
   
-  var mischyMap = new google.maps.Map(map, mapOptions);
+  var mischyMap = new google.maps.Map(map, mischyLocation, mapOptions);
   
   var marker = new google.maps.Marker ({
     position: mischyLocation,

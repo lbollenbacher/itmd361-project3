@@ -1,17 +1,8 @@
-// Map variables
-
-var map;
-var mapCanvas;
-var mischyLocation;
-var mapOptions;
-var mischyMap;
-var marker;
-
 // Map 
 
 function initMap() {
   //alert('Welcome to Mischka's House!');
-  var mapCanvas = document.getElementById('canvas');
+  var map = document.getElementById('canvas');
   var mischyLocation = new google.maps.LatLng(41.88480472032102, -87.62735095043277);
   var mapOptions = { 
     center: mischyLocation,
@@ -22,11 +13,13 @@ function initMap() {
     }
   };
   
-  var mischyMap = new google.maps.Map(mapCanvas, mapOptions);
+  // Marker
+  
+  var mischyMap = new google.maps.Map(map, mapOptions);
   
   var marker = new google.maps.Marker ({
     position: mischyLocation,
-    map: mapCanvas,
+    map: mischyMap,
     animation: google.maps.Animation.DROP,
     icon: 'marker_icon/mischka.png'
   });

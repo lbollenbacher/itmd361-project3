@@ -20,7 +20,7 @@ function initMap() {
    position: mischyLocation,
    map: mischyMap,
    animation: google.maps.Animation.DROP,
-   icon: 'marker_icon/mischka.png'
+   icon: 'mischka.png'
  });
   
 }

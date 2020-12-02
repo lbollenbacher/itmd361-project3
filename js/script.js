@@ -25,16 +25,6 @@ function initMap() {
  
 // InfoWindow
 	
-  var contentString = '<h1>Welcome to Mischka's House!</h1><p>This is where all of her favorite activities reside.</p>';
-
-  var infowindow = new google.maps.InfoWindow({
-    content: contentString
-  });
-
-  google.maps.event.addListener(marker, 'mouseover', function() {
-    infowindow.open(myMap, marker);
-  };
-	
 }
 
 google.maps.event.addEventListener(window, 'load', init);

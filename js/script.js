@@ -14,21 +14,27 @@ function initMap() {
   
 // Marker
  
- var mischyMap = new google.maps.Map(map, mapOptions);
+  var mischyMap = new google.maps.Map(map, mapOptions);
  
- var marker = new google.maps.Marker({
-   position: mischyLocation,
-   map: mischyMap,
-   animation: google.maps.Animation.DROP,
-   icon: 'mischka.png'
- });
+  var marker = new google.maps.Marker({
+    position: mischyLocation,
+    map: mischyMap,
+    animation: google.maps.Animation.DROP,
+    icon: 'mischka.png'
+  });
  
 // InfoWindow
-  
-	var contentString = '<h1>Welcome to Mischka's House!</h1><p>This is where all of her favorite activities reside.</p>';
+	
+  var contentString = '<h1>Welcome to Mischka's House!</h1><p>This is where all of her favorite activities reside.</p>';
 
-	var infowindow = new google.maps.InfoWindow({
-      content: contentString  
+  var infowindow = new google.maps.InfoWindow({
+    content: contentString
+  });
+
+  google.maps.event.addListener(marker, 'mouseover', function() {
+    infowindow.open(myMap, marker);
+  };
+	
 }
 
 google.maps.event.addEventListener(window, 'load', init);

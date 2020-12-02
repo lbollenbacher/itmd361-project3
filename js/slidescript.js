@@ -3,6 +3,7 @@
 
   var i = 0;
   var images = [];
+  var time = 3000;
 
 // Image List
 
@@ -22,10 +23,9 @@ function changeImg() {
   else {
     i = 0;
   }
+  
+  setTimeout("changeImage()", time);
 }
 
-function slideShow() {
-  window.setInterval("changeImg()", 3000);
-}
 
 window.onload = changeImg;

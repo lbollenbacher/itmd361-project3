@@ -19,7 +19,7 @@ function initMap() {
   var marker = new google.maps.Marker({
     position: mischyLocation,
     map: mischyMap,
-    animation: google.maps.Animation.DROP,
+    animation: google.maps.Animation.BOUNCE,
     icon: 'mischka.png'
   });
  

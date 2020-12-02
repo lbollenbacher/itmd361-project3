@@ -22,7 +22,13 @@ function initMap() {
    animation: google.maps.Animation.DROP,
    icon: 'mischka.png'
  });
+ 
+// InfoWindow
   
+	var contentString = '<h1>Welcome to Mischka's House!</h1><p>This is where all of her favorite activities reside.</p>';
+
+	var infowindow = new google.maps.InfoWindow({
+      content: contentString  
 }
 
 google.maps.event.addEventListener(window, 'load', init);

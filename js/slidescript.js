@@ -1,7 +1,7 @@
 
 // Slideshow Variables
 
-var first = 0;
+var i = 0;
 var images = [];
 var time = 3000;
 
@@ -18,11 +18,11 @@ images[6] = "slideshow/working.jpeg";
 // Function
 
 function changeImg() {
-  document.getElementById("slide").src = images[first];
+  document.getElementById("slide").src = images[i];
 
-  if (first < images.length - 1) {i++;} 
+  if (i < images.length - 1) {i++;} 
   else {
-    first = 0;
+    i = 0;
   }
   setTimeout("changeImg()", time);
 }

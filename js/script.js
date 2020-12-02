@@ -27,12 +27,12 @@ function initMap() {
 
   var contentString = '<h1>Welcome to Mischkas House!</h1><p>Everything the light touches, is her kingdom.</p>'
 
-	var infowindow = new google.maps.InfoWindow({
-      content: contentString
+  var infowindow = new google.maps.InfoWindow({
+    content: contentString
   });
 
-	google.maps.event.addListener(marker, 'mouseover', function() {
-    	infowindow.open(mischyMap, marker);
+  google.maps.event.addListener(marker, 'mouseover', function() {
+    infowindow.open(mischyMap, marker);
   });	
 	
 // 

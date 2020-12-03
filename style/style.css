@@ -236,7 +236,7 @@ h4 {
 
 /* Slideshow */
 
-#slideshow {
+.slideshow {
   height: 900px;
   width: 80%;
   margin: 0px auto;
@@ -246,7 +246,7 @@ h4 {
   overflow: hidden;
 }
 
-#slide {
+.bxslider {
   height: 700px;
   width: 75%;
   margin: 85px auto;

@@ -254,10 +254,7 @@ h4 {
 }
 
 .slidepic img {
-  height: 900px;
-  width: 80%;
-  margin: 0px auto;
-  margin-top: 30px;
-  padding-top:30px;
-  overflow: hidden;
+  height: 700px;
+  width: 75%;
+  margin: 85px auto;
 }

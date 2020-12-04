@@ -44,6 +44,5 @@ google.maps.event.addDomListener(window, 'load', init);
 
 $(document).ready(function(){
   $('.bxslider').bxSlider({
-    mode: 'fade'
   });
 });

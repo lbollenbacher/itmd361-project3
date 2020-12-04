@@ -41,16 +41,9 @@ function initMap() {
 google.maps.event.addDomListener(window, 'load', init);
 
 // Box Slider
+
 $(document).ready(function(){
   $('.bxslider').bxSlider({
-    mode: 'vertical',
-    auto: true,
-    autoControls: true,
-    stopAutoOnClick: true,
-    pager: true,
-    controls: true,
-    captions: false,
-    touchEnabled: true,
-    infiniteLoop: true,
+    mode: 'fade'
   });
 });

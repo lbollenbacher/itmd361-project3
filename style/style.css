@@ -30,6 +30,11 @@
   background-color: SeaShell;
 }
 
+/* kitty cursor */
+
+html, body {
+  cursor: url("kittypaw.png"), default;
+
 /* body */
 
 body {

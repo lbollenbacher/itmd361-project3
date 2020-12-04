@@ -39,10 +39,3 @@ function initMap() {
 }
 
 google.maps.event.addDomListener(window, 'load', init);
-
-// Box Slider
-
-$(document).ready(function(){
-  $('.bxslider').bxSlider({
-  });
-});

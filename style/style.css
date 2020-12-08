@@ -236,7 +236,7 @@ h4 {
 
 /* bxSlider */
 
-.slider img {
+.slider.img {
   display: block;
   margin-left: auto;
   margin-right: auto;

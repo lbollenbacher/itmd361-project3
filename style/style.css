@@ -233,14 +233,3 @@ h4 {
   margin: 85px auto;
   background-color: LightPink;
 }
-
-/* Slideshow */
-
-.slideshow {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.slideshow ul {
-  margin:0;
-}

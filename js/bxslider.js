@@ -1,5 +1,3 @@
-  <script>
-    $(document).ready(function(){
-      $('.slider').bxSlider();
-    });
-  </script>
+$(document).ready(function(){
+  $('.slider').bxSlider();
+ });

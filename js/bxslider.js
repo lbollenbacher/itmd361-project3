@@ -1,4 +1,5 @@
-$(document).ready(function(){
-  $('.bxslider').bxSlider({
-  });
-});
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+  </script>
